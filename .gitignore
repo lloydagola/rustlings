@@ -1,0 +1,24 @@
+# Rust compiled files
+/target/
+**/*.rs.bk
+
+# Cargo files
+Cargo.lock
+
+# Editor files
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+*.DS_Store
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Rustlings specific
+/exercises/*/target/
+
+# Optional: backups
+*.rs.bk
