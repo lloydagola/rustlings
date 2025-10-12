@@ -13,18 +13,16 @@
 // fn calculate_price_of_apples(???) -> ??? { ??? }
 
 fn calculate_price_of_apples(quantity:u32) -> u32 {
-    if 40 <= quantity{
-        quantity * 1
+    if quantity <= 40{
+        quantity * 2
     }
     else {
-        quantity * 2
+        quantity * 1
     }
 }
 
 fn main() {
     // You can optionally experiment here.
-    let res = calculate_price_of_apples(35);
-    println!("res: {res}")
 }
 
 // Don't change the tests!
